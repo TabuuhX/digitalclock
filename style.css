@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(200deg, #e9b666, #f5b19c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: linear-gradient(240deg, #b1bb78aa, #eed59aaa);
+    border-radius: 18px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, .5);
+}
+.clock div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #000000da;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+    letter-spacing: 2px;
+    border-radius: 7px;
+}
+.clock span{
+    font-weight: bolder;
+    font-size: 70px;
+}
+.clock span.time{
+    font-weight: 400;
+    font-size: 10px;
+}
